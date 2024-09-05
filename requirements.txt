@@ -1,0 +1,8 @@
+opencv-contrib-python
+tensorflow
+scikit-learn
+numpy
+pandas
+matplotlib
+pillow
+pypiwin32
