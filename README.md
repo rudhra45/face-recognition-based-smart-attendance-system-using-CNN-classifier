@@ -22,23 +22,6 @@
     Recognizes faces in real-time using the trained model.
     Logs attendance of recognized users in a file or database.
 
-->Directory Structure:
-  face_recognition_attendance_system/
-│
-├── data/
-│   ├── faces/                             # Directory where captured face images are stored
-│   ├── haarcascade_frontalface_default.xml # Pre-trained face detection model
-│   ├── names.pkl                          # Saved label encoder
-│   ├── best_face_recognition_model.keras  # Saved best model
-│
-├── add_faces.py                           # Script for capturing face images
-├── train_model.py                         # Script for training the CNN model
-├── recognize_and_log.py                   # Script for face recognition and logging attendance
-│
-├── background.png                         # Background image for the GUI
-├── requirements.txt                       # Python dependencies
-├── main.py                                # Main GUI application
-└── README.md                              # Project documentation
 
 ->Order of Execution
   1)Install the required dependencies by running:
